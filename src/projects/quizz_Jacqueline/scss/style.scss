@@ -2,9 +2,11 @@
 // @import 'footer';
 
 // base
-$font-style: normal 18px sans-serif;
-$grey-color: #555;
-$white-color: #f5f5f5;
+// $font-style: normal 18px Arimo;
+$blue-color: rgb(0, 255, 242, 0.801);
+// $green-color:#1afe49;
+// $pink-color:#EC449B;
+// $magenta-color:#3D155F;
 
 // * {
 //   box-sizing: border-box;
@@ -17,14 +19,28 @@ $white-color: #f5f5f5;
 //   color: $grey-color;
 //   line-height: 1.6;
 // }
+html {
+    background-image: url("https://media.giphy.com/media/KZFrf9JusXzmpnPsT6/giphy.gif");
+    background-size: 100%;
+  }
 
-body {
-    font-family: "Ariel", sans-serif;
+.question {
+
+    //color:$blue-color;
+    font-size:24;
+    font-family:Arimo;
+    text-align:left;
+    font-weight: 700;
+    color: $blue-color;
+ }
+
+.body {
+    font-family:Changa;
     font-size: 15px;
     line-height: 1.6em;
-    
-    
+  
 }
+
 li{
     list-style: none;
 }
@@ -54,21 +70,36 @@ input[type='number']{
     width: 60%;
     margin:0 auto;
     overflow:auto;
+    color:$blue-color;
+    // width: 50vw;
+    // height: 50vh;
+    justify-content: center;
+    justify-items: center;
+    // align-content: center;
+    // align-items: center;
+    // text-align:center;
+}
 
-    
+.h1{
+    font-family:Roboto;
 }
 header{
-    border-bottom:3px #f4f4f4 solid;
+    border-bottom:3px #f4f4f4 none;
+    text-align:left;
 }
 
 footer{
-    border-top: 3px #f4f4f4 solid;
+    border-top: 3px #f4f4f4 none;
     text-align: center;
     padding-top: 5px;
+
 
 }
 main{
  padding-bottom: 20px;
+ border-color:transpert;
+ align-content: center;
+ align-items: center;
  
 }
 
@@ -80,33 +111,38 @@ a.start{
     padding:6px 13px;
     cursor:pointer;
 }
-.btn{
-display:inline-block;
- padding:0.3em 1.2em;
- margin:0 0.1em 0.1em 0;
- border:0.16em solid rgba(255,255,255,0);
- border-radius:2em;
- box-sizing: border-box;
- text-decoration:none;
- font-family:'Roboto',sans-serif;
- font-weight:300;
- color:#FFFFFF;
- text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
- text-align:center;
- transition: all 0.2s;
-}
-.btn{
-    border-color: rgba(255,255,255,1);
-}
 
 .current{
-    padding:10px;
-    background:#f4f4f4;
-    border:#ccc dotted 1px;
+    // padding:10px;
+    background:transparent;
+    border:none;
     margin:20px 0 10px 0;
+    color:$blue-color;
+    font-size:18;
+    font-family:Changa;
+    text-align: left;
 }
 @media only screen and (max-width:960px){
     .container {
         width: 80%;
     }
+}
+
+button {
+    font-family:Hind;
+    background-color: transparent;
+    border-radius: 50%;
+    // border-color: white;
+    border:none;
+    border-radius: 50%;
+    cursor: pointer;
+    color:$blue-color;
+    font-size:17;
+    font-weight: bolder;
+    
+}
+
+button:hover {
+    font-size:30;
+    color:$blue-color;
 }

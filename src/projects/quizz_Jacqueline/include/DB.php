@@ -4,4 +4,12 @@ define('DB_USER', getenv('DB_USER'));
 define('DB_PASSWORD', getenv('DB_PASSWORD'));
 define('DB_HOST', getenv('DB_HOST'));
 
+
+// $dbname = 'demo';
+// $dbuser = 'root';
+// $dbpass = 'root';
+// $dbhost = 'mysql';
+// $connection = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8', DB_USER, DB_PASSWORD);        
+
+
 $connection = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8', DB_USER, DB_PASSWORD);        

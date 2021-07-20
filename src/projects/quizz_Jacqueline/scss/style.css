@@ -1,6 +1,18 @@
-@charset "UTF-8";
-body {
-  font-family: "Ariel", sans-serif;
+html {
+  background-image: url("https://media.giphy.com/media/KZFrf9JusXzmpnPsT6/giphy.gif");
+  background-size: 100%;
+}
+
+.question {
+  font-size: x-large;
+  font-family: Arimo;
+  text-align: left;
+  font-weight: bolder;
+  color: rgba(0, 255, 242, 0.74);
+}
+
+.body {
+  font-family: Changa;
   font-size: 15px;
   line-height: 1.6em;
 }
@@ -33,64 +45,99 @@ input[type='number'] {
 }
 
 .container {
+  font-size: x-large;
   width: 60%;
   margin: 0 auto;
   overflow: auto;
+  color: rgba(0, 255, 242, 0.74);
+  font-family:roboto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+}
+h2{
+  font-family:roboto;
+}
+.h1 {
+  font-family: Roboto;
 }
 
 header {
-  border-bottom: 3px #f4f4f4 solid;
+  border-bottom: 3px #f4f4f4 none;
+  text-align: left;
 }
 
 footer {
-  border-top: 3px #f4f4f4 solid;
-  text-align: center;
-  padding-top: 5px;
+  margin: 0 auto ;
+  text-align:center;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 2em;
 }
 
 main {
+ font-size: x-large;
   padding-bottom: 20px;
+  border-color: transpert;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+          
 }
 
 a.start {
   display: inline-block;
-  color: #666;
-  background-color: #f4f4f4;
-  border: 1px dotted #ccc;
+  color:rgba(0, 255, 242, 0.74);
+  background-color:transparent;
+  border: none;
   padding: 6px 13px;
   cursor: pointer;
 }
 
-.btn {
-  display: inline-block;
-   padding: 0.3em 1.2em;
-   margin: 0 0.1em 0.1em 0;
-   border: 0.16em solid rgba(255, 255, 255, 0);
-   border-radius: 2em;
-   box-sizing: border-box;
-   text-decoration: none;
-   font-family: 'Roboto',sans-serif;
-   font-weight: 300;
-   color: #FFFFFF;
-   text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
-   text-align: center;
-   transition: all 0.2s;
-}
+a.start:hover{
+  font-size: 50px;
+  font-weight:bold;
 
-.btn {
-  border-color: white;
 }
 
 .current {
-  padding: 10px;
-  background: #f4f4f4;
-  border: #ccc dotted 1px;
+  background: transparent;
+  border: none;
   margin: 20px 0 10px 0;
+  color: rgba(0, 255, 242, 0.74);
+  font-size: large;
+  font-family: Roboto;
+  text-align: left;
 }
 
 @media only screen and (max-width: 960px) {
   .container {
     width: 80%;
   }
+}
+
+button {
+  font-family: Hind;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color: rgba(0, 255, 242, 0.74);
+  font-size: x-large;
+  font-weight: bolder;
+  text-align:left;
+  font-family:roboto;
+
+}
+
+button:hover {
+  font-size: 50;
+  color: rgba(0, 255, 242, 0.74);
+}
+#footer {
 }
 /*# sourceMappingURL=style.css.map */
