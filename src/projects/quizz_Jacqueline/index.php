@@ -19,7 +19,7 @@ session_destroy();
 
         <div class="container">
             <h2>Learning PHP</h2>
-            <p>This is a multiple choice quiz to test your knowledge</p>
+            <p>This is a multiple choice quiz</p>
             <ul>
                  
                 <li><strong>Number of Questions:</strong><?php echo count($total)?></li>
